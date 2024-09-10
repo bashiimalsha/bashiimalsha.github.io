@@ -6,6 +6,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">gfdr</script>
 </head>
 <body>
     <nav id="desktop-nav">
@@ -36,20 +37,17 @@
     </div>
     </nav>
     <section id="profile">
-        <div class=""section_pic-container">
-            <img src="./assets/profile-pic.png" alt="Bashi Profile picture"/>
+        <div class="section_pic-container">
+            <img src="./assets/profile-me.png" alt="Bashi Profile picture"/>
         </div>
-        <div class="secction_text">
+        <div class="section_text">
             <p classs="section_text_p1">Hello, I'm</p>
             <h1 class="title">Bashi Imalsha</h1>
-            <p class="section_text_p2">Frontend Developer</p>
+            <p class="section_text_p2"><span class="text"></span></p>
             <div class="btn-container">
-                <button class="btn btn-color-2" 
-                onclick="window.open('./assets/resume-example,pdf')">
-                    Download CV
-                </button>
+                
                 <button class="btn btn-color-1" 
-                onclick="location.href('./#contact')">
+                onclick="location.href='./#contact'">
                     Contact Me
                 </button>
                 </div>
@@ -66,6 +64,305 @@
                 </div>
             </div>
         </section>
+            <section id="about">
+                <p class="section_text_p1">Get To Know More</p>
+                <h1 class="title">About Me</h1>
+                    <div class="section-container">
+                        <div class="section_pic-container">
+                            <img 
+                            src="./assets/about-pic.jpg" 
+                            alt="Profile picture" 
+                            class="about-pic"/>
+                        </div>
+                        <div class="about-details-container">
+                            <div class="about-containers">
+                                <div class="details-container">
+                                    <img 
+                                    src="./assets/experience.png" 
+                                    alt="Experience icon"
+                                    class="icon"/>
+                                    <h3>Experience</h3>
+                                    <p>2+ years <br/>Web Designer</p>
+                                </div>
+                                <div class="details-container">
+                                    <img 
+                                    src="./assets/education.png" 
+                                    alt="Education icon"
+                                    class="icon"
+                                    />
+                                    <h3>Education</h3>
+                                    <p>B.Sc.Bachelors Degree Information Technology at SLIIT</p>
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                <p>
+                                        Bashi Imalsha is a passionate and dedicated Frontend Developer with a keen eye for design and user experience. She has a strong foundation in HTML, CSS, and JavaScript and is always eager to learn new skills.
+                                        She is a creative, quick learner, and a team player. She is currently working remotely, but can be found on the road with her family and friends. She is an excellent communicator and is always ready to answer questions. 
+                                        She is also a bit of a fitness enthusiast and loves to try out new workout routines and track her progress. She is a bit of a lover of photography and loves to travel and see new places. She is also a bit of a vegetarian and loves to cook simple and healthy meals. 
+                                        She enjoys cooking traditional and unique dishes from her home country, Sri Lanka. She is also a bit of a sports person and loves
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img 
+                    src="./assets/arrow.png" 
+                    alt="Arrow icon" 
+                    class="icon arrow" 
+                    onclick="location.href='./#experience'"/>
+            </section>
+            <section id="experience">
+                <p class="section_text_p1">Explore My</p>
+                <h1 class="title">Experience</h1>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">Frontend Development</h2>
+                            <div class="article-container">
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>HTML</h3>
+                                        <p>Experienced</p>
+                                    </div>                       
+                                </article>
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>CSS</h3>
+                                        <p>Experienced</p>
+                                    </div>                       
+                                </article>
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>React</h3>
+                                        <p>Experienced</p>
+                                    </div>                       
+                                </article>
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>JavaScript</h3>
+                                        <p>Experienced</p>
+                                    </div>                       
+                                </article>
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>Python</h3>
+                                        <p>Basic</p>
+                                    </div>                       
+                                </article>
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>Kotlin</h3>
+                                        <p>Basic</p>
+                                    </div>                       
+                                </article>
+                            </div>
+                        </div>
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">Web Development</h2>
+                            <div class="article-container">
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>MongoDB</h3>
+                                        <p>Experienced</p>
+                                    </div>                       
+                                </article>
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>MySQL</h3>
+                                        <p>Intermediate</p>
+                                    </div>                       
+                                </article>
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>Node js</h3>
+                                        <p>Intermediate</p>
+                                    </div>                       
+                                </article>
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>Express js</h3>
+                                        <p>Intermediate</p>
+                                    </div>                       
+                                </article>
+                                <article>
+                                    <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience icon" 
+                                    class="icon"/> 
+                                    <div>
+                                        <h3>Git</h3>
+                                        <p>Intermediate</p>
+                                    </div>                       
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img 
+                    src="./assets/arrow.png" 
+                    alt="Arrow icon" 
+                    class="icon arrow" 
+                    onclick="location.href='./#projects'"/>
+            </section>
+            <section id="projects">
+                <P class="section_text_p1">Browse My Recent</P>
+                <h1 class="title">Projects</h1>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-01.png"
+                            alt="Project 1"
+                            class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project one</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bashiimalsha/IVORY-DENTAL-appointment-management-'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bashiimalsha/IVORY-DENTAL-appointment-management-'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-02.png"
+                        alt="Project 2"
+                        class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bashiimalsha/IVORY-DENTAL-appointment-management-'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bashiimalsha/IVORY-DENTAL-appointment-management-'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-03.png"
+                        alt="Project 3"
+                        class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Tree</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bashiimalsha/IVORY-DENTAL-appointment-management-'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bashiimalsha/IVORY-DENTAL-appointment-management-'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-04.png"
+                        alt="Project 4"
+                        class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Four</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bashiimalsha/IVORY-DENTAL-appointment-management-'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bashiimalsha/IVORY-DENTAL-appointment-management-'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <img 
+                    src="./assets/arrow.png" 
+                    alt="Arrow icon" 
+                    class="icon arrow" 
+                    onclick="location.href='./#experience'"/>
+            </section>
+            <section id="contact">
+                <p class="section_text_p1">Get in Touch</p>
+                <h1 class="title">Contact Me</h1>
+                <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/email.png" 
+                    alt="email icon" 
+                    class="icon contact-icon email-icon"/>
+                    <p><a href="mailto:bashiimalsha5@gmail.com">bashiimalsha5@gmail.com</a>
+                    </p>
+                </div>
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/linkedin.png" 
+                    alt="Linkedin icon" 
+                    class="icon contact-icon"/>
+                    <p><a href="https://www.linkedin.com/in/bashi-imalsha-106a18287/">LinkedIn</a>
+                    </p>
+                </div>
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/instergram.png" 
+                    alt="instergram icon" 
+                    class="icon contact-icon inster-icon"/>
+                    <p><a href="https://www.instagram.com/___.b.a.s.h.i.___?img_index=3">instergram</a>
+                    </p>
+                </div>
+            </div>
+            </section>
+            <footer>
+                <nav>
+                    <div class="nav-links-container">
+                        <ul class="nav-links">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <p>Copyright &#169; 2024 Bashi Imalsha. All Rights Reserved</p>
+            </footer>
     <script src="script.js"></script>
 </body>
 </html>

@@ -4,3 +4,11 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+var typed = new Typed(".text", {
+    strings:["UI/UX Designer" ,"Web Designer" , "Frontend Developer"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
