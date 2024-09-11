@@ -160,7 +160,7 @@ section {
 }
 
 .text {
-    font-size: 36px;
+    font-size: 33px;
 }
 
 .section_text p {
@@ -226,7 +226,7 @@ section {
 .btn-color-2:hover {
     cursor: pointer;
     background-color: rgb(53, 53, 53);
-    color: white;
+    color: rgb(95, 93, 93);
 }
 
 .btn-color-1:hover {
@@ -235,7 +235,7 @@ section {
 
 .btn-color-2:hover {
     background: none;
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: rgb(64, 63, 63) 0.1rem solid;
 }
 
 /* ABOUT SECTION */
