@@ -226,7 +226,7 @@ section {
 .btn-color-2:hover {
     cursor: pointer;
     background-color: rgb(53, 53, 53);
-    color: rgb(95, 93, 93);
+    color: #ececec;
 }
 
 .btn-color-1:hover {
