@@ -226,7 +226,10 @@ section {
 .btn-color-2:hover {
     cursor: pointer;
     background-color: rgb(53, 53, 53);
-    color: #bebebe;
+    color: #ffffff;
+}
+.project-btn:hover{
+    color: #575757;
 }
 
 .btn-color-1:hover {
